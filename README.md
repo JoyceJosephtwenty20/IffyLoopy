@@ -1,17 +1,25 @@
-input:
+Loopy 
+Create ONE string variable to store the output of 5 words that a user will enter at random.
 
-	5 random words 
+Iffy 
+Set a boolean value to a variable called redEyes.
 
-	yes or no 
-
-process
- 	store the answer as boolean True or False
-	if true print "Get some sleep!"
-	if false print "you look great!"
-
-	Ask the user if you want try again?
-	until user input "n" the application should return 
+The value will depend on the value entered by the user for the question "Are your eyes red?"
 
 
-End;
-	
+Create an application that will ask,
+
+"Are your eyes red?"
+
+If the response is 'y', Or 'yes' (regardless of case), then your application should print out: 
+"Get some sleep!"
+
+
+Otherwise your application should print out "You look great!"
+
+Use the value of redEyes to determine whether the user should be complimented or not. 
+
+Iffy Loop 
+Make sure after the application asks the question the first time, you get a prompt asking, 
+"Do you want to try again?"
+Your application should continue until the user enters 'n' as an answer.
