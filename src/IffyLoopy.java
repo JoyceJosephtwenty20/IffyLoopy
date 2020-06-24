@@ -9,13 +9,13 @@ public class IffyLoopy {
         String fiveWords = "";
         int count = 1;
         while (count <= 5) {
-            System.out.println("Please input a word #");
+            System.out.println("Please input a word ");
             String word = input.nextLine();
             fiveWords = fiveWords + " " + word; // to add a space after each word
             count = count + 1;// or count++
 
         }
-        System.out.println(fiveWords); // stored values
+        System.out.println("Five random words: " + fiveWords); // stored values
 
         // Iffy
 
@@ -41,7 +41,7 @@ public class IffyLoopy {
 
                 /// Iffy Loop
             }
-            System.out.println("Do you want try again?");
+            System.out.println("Do you want try again? (If you want quit enter \"n\" )");
             quit = input.nextLine();
 
         }while (!quit.equalsIgnoreCase("n"));
@@ -49,16 +49,4 @@ public class IffyLoopy {
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
