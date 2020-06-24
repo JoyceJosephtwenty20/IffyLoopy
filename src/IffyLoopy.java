@@ -35,7 +35,7 @@ public class IffyLoopy {
                 redEye = false;
             }
             if (redEye == true) {
-                System.out.println("Get some help");
+                System.out.println("Get some sleep!");
             }else {
                 System.out.println("You look great!");
 
